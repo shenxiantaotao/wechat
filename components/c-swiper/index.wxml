@@ -1,0 +1,8 @@
+<!--轮播-->
+<swiper class="swiper" indicator-dots indicator-active-color="#157658" autoplay circular>
+    <block wx:for="{{ list }}" wx:key="id">
+      <swiper-item>
+        <image class="swiper" src="{{ item.url }}"></image>
+      </swiper-item>
+    </block>
+  </swiper>

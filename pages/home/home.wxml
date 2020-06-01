@@ -1,0 +1,2 @@
+<!-- 轮播 -->
+<c-swiper list="{{ banner_list }}"></c-swiper>
